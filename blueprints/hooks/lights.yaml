@@ -18,7 +18,7 @@ blueprint:
   domain: automation
   input:
     controller_device:
-      name: (deCONZ, ZHA)) Controller Device
+      name: (deCONZ, ZHA) Controller Device
       description: The controller device which will control the Light. Choose a value only if the integration used to connect the controller to Home Assistant exposes it as a Device. This value should match the one specified in the corresponding Controller automation.
       default: ''
       selector:
